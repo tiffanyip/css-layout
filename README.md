@@ -65,7 +65,7 @@ Learn about the [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS
 - [ ] Add padding and margin to space the elements in main-content.
 
 ### Floats and Positioning
-Read about [floats and positioning](http://learn.shayhowe.com/html-css/positioning-content/)
+Read about [floats and positioning](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
 - [ ] Position the containers for the nav, main-content, and footer appropriately. 
 - [ ] Horizontally center the "Google" logo, a text input, and the buttons inside the main-content container. How does the display of the image and buttons affect how to center them?
 - [ ] Position the footer so it sticks to the bottom of the page.

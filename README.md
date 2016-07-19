@@ -88,6 +88,10 @@ It's best practice to pre-size images to the size needed, rather than using larg
 Congrats! Your page should look extremely close to the mockup. Take a second look at the mockup and compare it with your styled page. Fix any styling that is not an exact replica of the mockup. 
 
 ### Extra credit:
+- [ ] Learn about Flexbox, a new layout mode in CSS3. It can help build dynamic layouts that space items appropriately. 
+      1. Watch the first 5-13 [Intro to Flexbox videos](http://flexbox.io/view/ND8SjPJOk_M) for a solid introduction (note: videos are free, but you must input your email address.)
+      2. Flex your flexbox muscles through this [interactive game](http://flexboxfroggy.com/)
+      3. As you play around with flexbox, use [this cheatsheet](http://jonibologna.com/flexbox-cheatsheet/) to remember flexbox properties 
 - [ ] Sprites are often used for images to reduce the number of image files that need to be sent over HTTP. [Create a sprite](http://www.spritebox.net/) of all the images on the page and refactor the site to use sprites. 
 - [ ] Implement [this site](https://www.palantir.com/). Use a static photo for the jumbotron. 
 - [ ] Refactor to make the [site responsive](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/) using vanilla css (no Bootstrap!). 

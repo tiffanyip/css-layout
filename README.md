@@ -31,6 +31,10 @@ A color picker allows you to find an exact hexadecimal color match for a color o
 Refreshing the page every time you make a change to your page's styling is a pain. Chrome Dev Tools allows you to make changes on the fly. Note: it will not save the changes made in Dev Tools to your css stylesheet without other tools, but it is useful when testing out styling properties to apply. 
 - Read how to use [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/?hl=en) for CSS
 
+## Selecting Elements 
+There are many ways to select the elements you would like to style in CSS. Generally, you want to use the least specific selector method possible. But, in many cases, the selector used is a choice of preference.
+- Learn about the most common types of [CSS Selectors](https://www.sitepoint.com/web-foundations/css-selectors/)
+
 ## Basic requirements:
 Build a page that looks like http://google.com using HTML and vanilla CSS - no outside libraries! Do not look at the source code for the page until you have finished your implementation. 
 
@@ -44,7 +48,7 @@ Pages are composed of different sections. Each group of elements should be conta
 
 ### Default Styling 
 Before jumping into styling individual sections of the page, think about common styling shared between elements. Any styling that should be applied to all elements of the same type should be defined before styling for specific sections. Add default styling for the sprint to the top of the css sheet. 
-- [ ] Set a default font size and arial on the body. The font-family is arial.
+- [ ] Set a default font size and font-family on the body. The font-family is arial.
 - [ ] Set the default font color. Use the color picker to determine the color. 
 - [ ] Change anchor tags (links) to not have an underline by default and be the correct hue of gray.
 - [ ] Change the ul to not show bullets for each li item.

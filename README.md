@@ -16,7 +16,7 @@ You are a front-end developer tasked with implementing the HTML/CSS for a mockup
 ### Normalizing CSS
 All browsers come with different default styling for elements. To even out browser consistencies and ensure styling looks the same accross all browsers, a normalizing stylesheet is used. Before you add custom styling to an app, it is best practice to normalize the default styles. 
 
-A CDN stands for content delivery network. It minimizes the time it takes for visitors to access resources on a website's server by storing cached versions of the content in multiple geographic locations (PoPs). It's a best practice to link to a CDN when your application makes use of commonly used libraries and frameworks/ 
+A CDN stands for content delivery network. It minimizes the time it takes for visitors to access resources on a website's server by storing cached versions of the content in multiple geographic locations (PoPs). It's a best practice to link to a CDN when your application makes use of commonly used libraries and frameworks.
 
 - [ ] Find a [CDN](https://cdnjs.com/) to add the [Normalize.CSS](https://necolas.github.io/normalize.css/) library to your page.
 

@@ -1,9 +1,118 @@
 /* default styling */
-
+body{
+  font-family: arial;
+  font-size: 0.9em;
+}
 /* nav */
+nav{
+  top: 1em;
+  width: 100%;
+  text-align: right;
+  right: 2em;
+  margin: 0;
+  position: fixed;
+  vertical-align: middle;
+  display:inline-block;
+}
+nav ul, nav li{
+  font-size: 0.9em;
+  display: inline;
+  padding: 0.3em 0.8em;
+  height: 3em;
+  width: 3em;
+}
+nav img{
+  display:inline-block;
+  vertical-align: middle;
+}
+.user_pic{
+  display:inline-block;
+  height: 3em;
+  width: 3em;
+  align-content: flex-end;
+  border-radius: 2em;
+}
 
 /* main-content */
+.main-content{
+  margin-top: 20%;
+  text-align: center;
+}
 
+
+input{
+  display: block;
+  margin: 2em auto;
+  height: 2.8em;
+  width: 50%;
+  font-size: 1em;
+  padding: 0 0.5em;
+  border: 1px solid #ccc;
+  background-image: url("assets/microphone.png");
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: 2.8em;
+  /*background-attachment: fixed;*/
+}
+input:focus{
+  border: 1px solid #4285F4;
+  outline: none;
+  padding: 0 0.5em;
+}
+
+.btn-main{
+  background-color: #F1F1F1;
+  border: 1px solid #fff;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 0.7em 1em;
+  color: #555;
+  margin: 0.3em;
+  border-radius: 0.2em;
+}
+button:hover{
+  color: #000;
+  border: 1px solid #ccc;
+  cursor: pointer;;
+}
 /* footer */
+footer{
+  display: flex;
+  background-color: #F2F2F2;
+  font-size: 0.8em;
 
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  position: fixed;
+  margin: 0px;
+
+  border-top: 1px solid #ccc;
+}
 /* helper classes */
+a:link, a:visited{
+  color: #666;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer a:active{
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+footer ul, footer li{
+  display: inline;
+  padding: 0.3em 1em;
+}
+
+.align-right{
+  position: fixed;
+  right: 2em;
+  text-align: right;
+
+}
